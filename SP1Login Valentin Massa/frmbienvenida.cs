@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace SP1Login_Valentin_Massa
 {
-    public partial class FrmInicio : Form
+    public partial class frmbienvenida : Form
     {
-        public FrmInicio()
+        public frmbienvenida()
         {
             InitializeComponent();
         }
-
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmLogin login = new frmLogin();
-            login.ShowDialog();
-
-        }
-    }   
+    }
 }
