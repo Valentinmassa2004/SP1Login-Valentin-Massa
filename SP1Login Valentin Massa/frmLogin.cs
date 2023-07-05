@@ -42,7 +42,7 @@ namespace SP1Login_Valentin_Massa
                     if (cboMódulo.Text == "SIST")
                     {
                         this.Hide();
-                        Frmbienvenida Bienvenida = new frmbienvenida();
+                        frmbienvenida Bienvenida = new frmbienvenida();
                         Bienvenida.ShowDialog();
                         varintentos = 0;
                     }
